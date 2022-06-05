@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BusinessRules</name>
+    </assembly>
+    <members>
+        <member name="T:BusinessRulesBase">
+            <summary>
+            The base class for the <see cref="!:GenCode2"/> class that 
+            represents a connection to the <c>GenCode2</c> database. 
+            </summary>
+            <remarks>
+            Do not change this source code. Modify the GenCode2 class
+            if you need to add or change some functionality.
+            </remarks>
+        </member>
+        <member name="T:BusinessRulesLocator">
+            <summary>
+            The base class for the <see cref="!:GenCode2"/> class that 
+            represents a connection to the <c>GenCode2</c> database. 
+            </summary>
+            <remarks>
+            Do not change this source code. Modify the GenCode2 class
+            if you need to add or change some functionality.
+            </remarks>
+        </member>
+        <member name="T:UserBO">
+            <summary>
+            The base class for <see cref="T:DbObj.UserCollection"/>. Provides methods 
+            for common database table operations. 
+            </summary>
+            <remarks>
+            Do not change this source code. Update the <see cref="T:DbObj.UserCollection"/>
+            class if you need to add or change some functionality.
+            </remarks>
+        </member>
+    </members>
+</doc>

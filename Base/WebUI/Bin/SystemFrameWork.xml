@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SystemFrameWork</name>
+    </assembly>
+    <members>
+        <member name="T:SystemFrameWork.CommonBO">
+            <summary>
+            Đây là class xây dựng các phương thức dùng chung trong hệ thống
+            </summary>
+        </member>
+    </members>
+</doc>

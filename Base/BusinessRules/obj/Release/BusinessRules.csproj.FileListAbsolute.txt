@@ -1,0 +1,6 @@
+D:\CHECKVN\CheckVN- SupplyChains\Code\WebUI\Bin\BusinessRules.dll
+D:\CHECKVN\CheckVN- SupplyChains\Code\WebUI\Bin\BusinessRules.xml
+D:\CHECKVN\CheckVN- SupplyChains\Code\BusinessRules\obj\Release\BusinessRules.csprojAssemblyReference.cache
+D:\CHECKVN\CheckVN- SupplyChains\Code\BusinessRules\obj\Release\BusinessRules.csproj.CoreCompileInputs.cache
+D:\CHECKVN\CheckVN- SupplyChains\Code\BusinessRules\obj\Release\BusinessRules.csproj.CopyComplete
+D:\CHECKVN\CheckVN- SupplyChains\Code\BusinessRules\obj\Release\BusinessRules.dll

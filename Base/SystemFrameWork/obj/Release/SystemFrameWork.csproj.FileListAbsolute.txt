@@ -1,0 +1,5 @@
+D:\CHECKVN\CheckVN- SupplyChains\Code\SystemFrameWork\bin\SystemFrameWork.dll
+D:\CHECKVN\CheckVN- SupplyChains\Code\SystemFrameWork\bin\SystemFrameWork.xml
+D:\CHECKVN\CheckVN- SupplyChains\Code\SystemFrameWork\obj\Release\SystemFrameWork.csproj.CoreCompileInputs.cache
+D:\CHECKVN\CheckVN- SupplyChains\Code\SystemFrameWork\obj\Release\SystemFrameWork.dll
+D:\CHECKVN\CheckVN- SupplyChains\Code\SystemFrameWork\obj\Release\SystemFrameWork.csprojAssemblyReference.cache

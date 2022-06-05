@@ -1,0 +1,47 @@
+D:\CHECKVN\CheckVN- SupplyChains\Code\WebUI\Bin\SystemFrameWork.dll
+D:\CHECKVN\CheckVN- SupplyChains\Code\WebUI\Bin\SystemFrameWork.pdb
+D:\CHECKVN\CheckVN- SupplyChains\Code\WebUI\Bin\SystemFrameWork.xml
+D:\CHECKVN\CheckVN- SupplyChains\Code\SystemFrameWork\obj\Debug\SystemFrameWork.csProj.CoreCompileInputs.cache
+D:\CHECKVN\CheckVN- SupplyChains\Code\SystemFrameWork\obj\Debug\SystemFrameWork.dll
+D:\CHECKVN\CheckVN- SupplyChains\Code\SystemFrameWork\obj\Debug\SystemFrameWork.pdb
+D:\CHECKVN\CheckVN- SupplyChains\Code\SystemFrameWork\obj\Debug\SystemFrameWork.csprojAssemblyReference.cache
+D:\CHECKVN\Ban Nong Thon Moi\Code\WebUI\Bin\SystemFrameWork.dll
+D:\CHECKVN\Ban Nong Thon Moi\Code\WebUI\Bin\SystemFrameWork.pdb
+D:\CHECKVN\Ban Nong Thon Moi\Code\WebUI\Bin\SystemFrameWork.xml
+D:\CHECKVN\Ban Nong Thon Moi\Code\SystemFrameWork\obj\Debug\SystemFrameWork.csproj.CoreCompileInputs.cache
+D:\CHECKVN\Ban Nong Thon Moi\Code\SystemFrameWork\obj\Debug\SystemFrameWork.dll
+D:\CHECKVN\Ban Nong Thon Moi\Code\SystemFrameWork\obj\Debug\SystemFrameWork.pdb
+D:\project\5.web NN\webBN\WebUI\Bin\SystemFrameWork.dll
+D:\project\5.web NN\webBN\WebUI\Bin\SystemFrameWork.pdb
+D:\project\5.web NN\webBN\WebUI\Bin\SystemFrameWork.xml
+D:\project\5.web NN\webBN\SystemFrameWork\obj\Debug\SystemFrameWork.csprojAssemblyReference.cache
+D:\project\5.web NN\webBN\SystemFrameWork\obj\Debug\SystemFrameWork.csproj.CoreCompileInputs.cache
+D:\project\5.web NN\webBN\SystemFrameWork\obj\Debug\SystemFrameWork.dll
+D:\project\5.web NN\webBN\SystemFrameWork\obj\Debug\SystemFrameWork.pdb
+D:\CHECKVN\Ban Nong Thon Moi\Source\WebUI\Bin\SystemFrameWork.dll
+D:\CHECKVN\Ban Nong Thon Moi\Source\WebUI\Bin\SystemFrameWork.pdb
+D:\CHECKVN\Ban Nong Thon Moi\Source\WebUI\Bin\SystemFrameWork.xml
+D:\CHECKVN\Ban Nong Thon Moi\Source\SystemFrameWork\obj\Debug\SystemFrameWork.csproj.CoreCompileInputs.cache
+D:\CHECKVN\Ban Nong Thon Moi\Source\SystemFrameWork\obj\Debug\SystemFrameWork.dll
+D:\CHECKVN\Ban Nong Thon Moi\Source\SystemFrameWork\obj\Debug\SystemFrameWork.pdb
+D:\CHECKVN\Ban Nong Thon Moi\Source\SystemFrameWork\obj\Debug\SystemFrameWork.csprojAssemblyReference.cache
+D:\Source Code\WEB NTM\WebUI\Bin\SystemFrameWork.dll
+D:\Source Code\WEB NTM\WebUI\Bin\SystemFrameWork.pdb
+D:\Source Code\WEB NTM\WebUI\Bin\SystemFrameWork.xml
+D:\Source Code\WEB NTM\SystemFrameWork\obj\Debug\SystemFrameWork.csprojAssemblyReference.cache
+D:\Source Code\WEB NTM\SystemFrameWork\obj\Debug\SystemFrameWork.csproj.CoreCompileInputs.cache
+D:\Source Code\WEB NTM\SystemFrameWork\obj\Debug\SystemFrameWork.dll
+D:\Source Code\WEB NTM\SystemFrameWork\obj\Debug\SystemFrameWork.pdb
+C:\Users\Phong\Desktop\TTS_CheckVN\NTM\WebUI\Bin\SystemFrameWork.dll
+C:\Users\Phong\Desktop\TTS_CheckVN\NTM\WebUI\Bin\SystemFrameWork.pdb
+C:\Users\Phong\Desktop\TTS_CheckVN\NTM\WebUI\Bin\SystemFrameWork.xml
+C:\Users\Phong\Desktop\TTS_CheckVN\NTM\SystemFrameWork\obj\Debug\SystemFrameWork.csprojAssemblyReference.cache
+C:\Users\Phong\Desktop\TTS_CheckVN\NTM\SystemFrameWork\obj\Debug\SystemFrameWork.dll
+C:\Users\Phong\Desktop\TTS_CheckVN\NTM\SystemFrameWork\obj\Debug\SystemFrameWork.pdb
+D:\CheckVN2022\TTS_CheckVN\Base\WebUI\Bin\SystemFrameWork.dll
+D:\CheckVN2022\TTS_CheckVN\Base\WebUI\Bin\SystemFrameWork.pdb
+D:\CheckVN2022\TTS_CheckVN\Base\WebUI\Bin\SystemFrameWork.xml
+D:\CheckVN2022\TTS_CheckVN\Base\SystemFrameWork\obj\Debug\SystemFrameWork.csproj.AssemblyReference.cache
+D:\CheckVN2022\TTS_CheckVN\Base\SystemFrameWork\obj\Debug\SystemFrameWork.csproj.CoreCompileInputs.cache
+D:\CheckVN2022\TTS_CheckVN\Base\SystemFrameWork\obj\Debug\SystemFrameWork.dll
+D:\CheckVN2022\TTS_CheckVN\Base\SystemFrameWork\obj\Debug\SystemFrameWork.pdb

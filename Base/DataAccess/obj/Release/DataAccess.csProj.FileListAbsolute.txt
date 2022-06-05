@@ -1,0 +1,12 @@
+D:\CHECKVN\CheckVN- SupplyChains\Code\DataAccess\bin\DataAccess.dll.config
+D:\CHECKVN\CheckVN- SupplyChains\Code\DataAccess\bin\DataAccess.dll
+D:\CHECKVN\CheckVN- SupplyChains\Code\DataAccess\bin\DataAccess.xml
+D:\CHECKVN\CheckVN- SupplyChains\Code\DataAccess\bin\SystemFrameWork.dll
+D:\CHECKVN\CheckVN- SupplyChains\Code\DataAccess\bin\SystemFrameWork.xml
+D:\CHECKVN\CheckVN- SupplyChains\Code\WebUI\Bin\DataAccess.dll.config
+D:\CHECKVN\CheckVN- SupplyChains\Code\WebUI\Bin\DataAccess.dll
+D:\CHECKVN\CheckVN- SupplyChains\Code\WebUI\Bin\DataAccess.xml
+D:\CHECKVN\CheckVN- SupplyChains\Code\DataAccess\obj\Release\DataAccess.csProjAssemblyReference.cache
+D:\CHECKVN\CheckVN- SupplyChains\Code\DataAccess\obj\Release\DataAccess.csProj.CoreCompileInputs.cache
+D:\CHECKVN\CheckVN- SupplyChains\Code\DataAccess\obj\Release\DataAccess.csProj.CopyComplete
+D:\CHECKVN\CheckVN- SupplyChains\Code\DataAccess\obj\Release\DataAccess.dll

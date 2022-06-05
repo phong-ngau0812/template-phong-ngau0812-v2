@@ -1,0 +1,862 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DataAccess</name>
+    </assembly>
+    <members>
+        <member name="T:Base.ConllectionBase">
+            <summary>
+            The base class for the <see cref="!:GenCode2"/> class that 
+            represents a connection to the <c>GenCode2</c> database. 
+            </summary>
+            <remarks>
+            Do not change this source code. Modify the GenCode2 class
+            if you need to add or change some functionality.
+            </remarks>
+        </member>
+        <member name="M:Base.ConllectionBase.#ctor(Database)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Base.ConllectionBase"/> 
+            class with the specified <see cref="T:Base.ConllectionBase"/>.
+            </summary>
+            <param name="db">The <see cref="T:Base.ConllectionBase"/> object.</param>
+        </member>
+        <member name="T:Base.DataAccessLocatorBase">
+            <summary>
+            The base class for the <see cref="!:GenCode2"/> class that 
+            represents a connection to the <c>GenCode2</c> database. 
+            </summary>
+            <remarks>
+            Do not change this source code. Modify the GenCode2 class
+            if you need to add or change some functionality.
+            </remarks>
+        </member>
+        <member name="T:Base.DatabaseBase">
+            <summary>
+            The base class for the <see cref="!:GenCode2"/> class that 
+            represents a connection to the <c>GenCode2</c> database. 
+            </summary>
+            <remarks>
+            Do not change this source code. Modify the GenCode2 class
+            if you need to add or change some functionality.
+            </remarks>
+        </member>
+        <member name="M:Base.DatabaseBase.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="!:SALEMAN_Base"/> 
+            class and opens the database connection.
+            </summary>
+        </member>
+        <member name="M:Base.DatabaseBase.#ctor(System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="!:SALEMAN_Base"/> class.
+            </summary>
+            <param name="init">Specifies whether the constructor calls the
+            <see cref="M:Base.DatabaseBase.InitConnection"/> method to initialize the database connection.</param>
+        </member>
+        <member name="M:Base.DatabaseBase.InitConnection">
+            <summary>
+            Initializes the database connection.
+            </summary>
+        </member>
+        <member name="M:Base.DatabaseBase.CreateConnection">
+            <summary>
+            Creates a new connection to the database.
+            </summary>
+            <returns>A reference to the <see cref="T:System.Data.IDbConnection"/> object.</returns>
+        </member>
+        <member name="M:Base.DatabaseBase.CreateSqlParameterName(System.String)">
+            <summary>
+            Returns a SQL statement parameter name that is specific for the data provider.
+            For example it returns ? for OleDb provider, or @paramName for MS SQL provider.
+            </summary>
+            <param name="paramName">The data provider neutral SQL parameter name.</param>
+            <returns>The SQL statement parameter name.</returns>
+        </member>
+        <member name="M:Base.DatabaseBase.ExecuteReader(System.Data.IDbCommand)">
+            <summary>
+            Creates <see cref="T:System.Data.IDataReader"/> for the specified DB command.
+            </summary>
+            <param name="command">The <see cref="T:System.Data.IDbCommand"/> object.</param>
+            <returns>A reference to the <see cref="T:System.Data.IDataReader"/> object.</returns>
+        </member>
+        <member name="M:Base.DatabaseBase.AddParameter(System.Data.IDbCommand,System.String,System.Data.DbType,System.Object)">
+            <summary>
+            Adds a new parameter to the specified command. It is not recommended that 
+            you use this method directly from your custom code. Instead use the 
+            <c>AddParameter</c> method of the &lt;TableCodeName&gt;Collection_Base classes.
+            </summary>
+            <param name="cmd">The <see cref="T:System.Data.IDbCommand"/> object to add the parameter to.</param>
+            <param name="paramName">The name of the parameter.</param>
+            <param name="dbType">One of the <see cref="T:System.Data.DbType"/> values. </param>
+            <param name="value">The value of the parameter.</param>
+            <returns>A reference to the added parameter.</returns>
+        </member>
+        <member name="M:Base.DatabaseBase.CreateCollectionParameterName(System.String)">
+            <summary>
+            Creates a .Net data provider specific name that is used by the 
+            <see cref="M:Base.DatabaseBase.AddParameter(System.Data.IDbCommand,System.String,System.Data.DbType,System.Object)"/> method.
+            </summary>
+            <param name="baseParamName">The base name of the parameter.</param>
+            <returns>The full data provider specific parameter name.</returns>
+        </member>
+        <member name="P:Base.DatabaseBase.Connection">
+            <summary>
+            Gets <see cref="T:System.Data.IDbConnection"/> associated with this object.
+            </summary>
+            <value>A reference to the <see cref="T:System.Data.IDbConnection"/> object.</value>
+        </member>
+        <member name="M:Base.DatabaseBase.BeginTransaction">
+            <summary>
+            Begins a new database transaction.
+            </summary>
+            <seealso cref="M:Base.DatabaseBase.CommitTransaction"/>
+            <seealso cref="M:Base.DatabaseBase.RollbackTransaction"/>
+            <returns>An object representing the new transaction.</returns>
+        </member>
+        <member name="M:Base.DatabaseBase.BeginTransaction(System.Data.IsolationLevel)">
+            <summary>
+            Begins a new database transaction with the specified 
+            transaction isolation level.
+            <seealso cref="M:Base.DatabaseBase.CommitTransaction"/>
+            <seealso cref="M:Base.DatabaseBase.RollbackTransaction"/>
+            </summary>
+            <param name="isolationLevel">The transaction isolation level.</param>
+            <returns>An object representing the new transaction.</returns>
+        </member>
+        <member name="M:Base.DatabaseBase.CommitTransaction">
+            <summary>
+            Commits the current database transaction.
+            <seealso cref="M:Base.DatabaseBase.BeginTransaction"/>
+            <seealso cref="M:Base.DatabaseBase.RollbackTransaction"/>
+            </summary>
+        </member>
+        <member name="M:Base.DatabaseBase.RollbackTransaction">
+            <summary>
+            Rolls back the current transaction from a pending state.
+            <seealso cref="M:Base.DatabaseBase.BeginTransaction"/>
+            <seealso cref="M:Base.DatabaseBase.CommitTransaction"/>
+            </summary>
+        </member>
+        <member name="M:Base.DatabaseBase.CreateCommand(System.String)">
+            <summary>
+            Creates and returns a new <see cref="T:System.Data.IDbCommand"/> object.
+            </summary>
+            <param name="sqlText">The text of the query.</param>
+            <returns>An <see cref="T:System.Data.IDbCommand"/> object.</returns>
+        </member>
+        <member name="M:Base.DatabaseBase.CreateCommand(System.String,System.Data.CommandType)">
+            <summary>
+            Creates and returns a new <see cref="T:System.Data.IDbCommand"/> object.
+            </summary>
+            <param name="sqlText">The text of the query.</param>
+            <param name="procedure">Specifies whether the sqlText parameter is 
+            the name of a stored procedure.</param>
+            <returns>An <see cref="T:System.Data.IDbCommand"/> object.</returns>
+        </member>
+        <member name="M:Base.DatabaseBase.CreateCommandText(System.String)">
+            <summary>
+            Creates and returns a new <see cref="!:System.Data.OracleCommand"/> object.
+            </summary>
+            <param name="sqlText">The text of the query.</param>
+            <returns>An <see cref="!:System.Data.OracleCommand"/> object.</returns>
+        </member>
+        <member name="M:Base.DatabaseBase.CreateCommandStoredProcedure(System.String)">
+            <summary>
+            Creates and returns a new <see cref="!:System.Data.OracleCommand"/> object.
+            </summary>
+            <param name="sqlText">The text of the query.</param>
+            <returns>An <see cref="!:System.Data.OracleCommand"/> object.</returns>
+        </member>
+        <member name="M:Base.DatabaseBase.Close">
+            <summary>
+            Rolls back any pending transactions and closes the DB connection.
+            An application can call the <c>Close</c> method more than
+            one time without generating an exception.
+            </summary>
+        </member>
+        <member name="M:Base.DatabaseBase.Dispose">
+            <summary>
+            Rolls back any pending transactions and closes the DB connection.
+            </summary>
+        </member>
+        <member name="T:Base.RowBase">
+            <summary>
+            The base class for the <see cref="!:GenCode2"/> class that 
+            represents a connection to the <c>GenCode2</c> database. 
+            </summary>
+            <remarks>
+            Do not change this source code. Modify the GenCode2 class
+            if you need to add or change some functionality.
+            </remarks>
+        </member>
+        <member name="T:Base.UserCollectionBase">
+            <summary>
+            The base class for <see cref="T:DbObj.UserCollection"/>. Provides methods 
+            for common database table operations. 
+            </summary>
+            <remarks>
+            Do not change this source code. Update the <see cref="T:DbObj.UserCollection"/>
+            class if you need to add or change some functionality.
+            </remarks>
+        </member>
+        <member name="M:Base.UserCollectionBase.#ctor(Database)">
+            <summary>
+            Initializes a new instance of the <see cref="!:CategoriesCollection_Base"/> 
+            class with the specified <see cref="T:Database"/>.
+            </summary>
+            <param name="db">The <see cref="T:Database"/> object.</param>
+        </member>
+        <member name="M:Base.UserCollectionBase.GetAll">
+            <summary>
+            Gets an array of all records from the <c>User</c> table.
+            </summary>
+            <returns>An array of <see cref="T:DbObj.UserRow"/> objects.</returns>
+        </member>
+        <member name="M:Base.UserCollectionBase.GetAllAsDataTable">
+            <summary>
+            Gets a <see cref="T:System.Data.DataTable"/> object that 
+            includes all records from the <c>User</c> table.
+            </summary>
+            <returns>A reference to the <see cref="T:System.Data.DataTable"/> object.</returns>
+        </member>
+        <member name="M:Base.UserCollectionBase.CreateGetAllCommand">
+            <summary>
+            Creates and returns an <see cref="T:System.Data.IDbCommand"/> object that is used
+            to retrieve all records from the <c>User</c> table.
+            </summary>
+            <returns>A reference to the <see cref="T:System.Data.IDbCommand"/> object.</returns>
+        </member>
+        <member name="M:Base.UserCollectionBase.GetRow(System.String)">
+            <summary>
+            Gets the first <see cref="T:DbObj.UserRow"/> objects that 
+            match the search condition.
+            </summary>
+            <param name="whereSql">The SQL search condition. For example: 
+            <c>"FirstName='Smith' AND Zip=75038"</c>.</param>
+            <returns>An instance of <see cref="T:DbObj.UserRow"/> or null reference 
+            (Nothing in Visual Basic) if the object was not found.</returns>
+        </member>
+        <member name="M:Base.UserCollectionBase.GetAsArray(System.String,System.String)">
+            <summary>
+            Gets an array of <see cref="T:DbObj.UserRow"/> objects that 
+            match the search condition, in the the specified sort order.
+            </summary>
+            <param name="whereSql">The SQL search condition. For example: 
+            <c>"FirstName='Smith' AND Zip=75038"</c>.</param>
+            <param name="orderBySql">The column name(s) followed by "ASC" (ascending) or "DESC" (descending).
+            Columns are sorted in ascending order by default. For example: <c>"LastName ASC, FirstName ASC"</c>.</param>
+            <returns>An array of <see cref="T:DbObj.UserRow"/> objects.</returns>
+        </member>
+        <member name="M:Base.UserCollectionBase.GetAsArray(System.String,System.String,System.Int32,System.Int32,System.Int32@)">
+            <summary>
+            Gets an array of <see cref="T:DbObj.UserRow"/> objects that 
+            match the search condition, in the the specified sort order.
+            </summary>
+            <param name="whereSql">The SQL search condition. For example:
+            <c>"FirstName='Smith' AND Zip=75038"</c>.</param>
+            <param name="orderBySql">The column name(s) followed by "ASC" (ascending) or "DESC" (descending).
+            Columns are sorted in ascending order by default. For example: <c>"LastName ASC, FirstName ASC"</c>.</param>
+            <param name="startIndex">The index of the first record to return.</param>
+            <param name="length">The number of records to return.</param>
+            <param name="totalRecordCount">A reference parameter that returns the total number 
+            of records in the reader object if 0 was passed into the method; otherwise it returns -1.</param>
+            <returns>An array of <see cref="T:DbObj.UserRow"/> objects.</returns>
+        </member>
+        <member name="M:Base.UserCollectionBase.GetAsDataTable(System.String,System.String)">
+            <summary>
+            Gets a <see cref="T:System.Data.DataTable"/> object filled with data that 
+            match the search condition, in the the specified sort order.
+            </summary>
+            <param name="whereSql">The SQL search condition. For example: "FirstName='Smith' AND Zip=75038".</param>
+            <param name="orderBySql">The column name(s) followed by "ASC" (ascending) or "DESC" (descending).
+            Columns are sorted in ascending order by default. For example: "LastName ASC, FirstName ASC".</param>
+            <returns>A reference to the <see cref="T:System.Data.DataTable"/> object.</returns>
+        </member>
+        <member name="M:Base.UserCollectionBase.GetAsDataTable(System.String,System.String,System.Int32,System.Int32,System.Int32@)">
+            <summary>
+            Gets a <see cref="T:System.Data.DataTable"/> object filled with data that 
+            match the search condition, in the the specified sort order.
+            </summary>
+            <param name="whereSql">The SQL search condition. For example: "FirstName='Smith' AND Zip=75038".</param>
+            <param name="orderBySql">The column name(s) followed by "ASC" (ascending) or "DESC" (descending).
+            Columns are sorted in ascending order by default. For example: "LastName ASC, FirstName ASC".</param>
+            <param name="startIndex">The index of the first record to return.</param>
+            <param name="length">The number of records to return.</param>
+            <param name="totalRecordCount">A reference parameter that returns the total number 
+            of records in the reader object if 0 was passed into the method; otherwise it returns -1.</param>
+            <returns>A reference to the <see cref="T:System.Data.DataTable"/> object.</returns>
+        </member>
+        <member name="M:Base.UserCollectionBase.CreateGetCommand(System.String,System.String)">
+            <summary>
+            Creates an <see cref="T:System.Data.IDbCommand"/> object for the specified search criteria.
+            </summary>
+            <param name="whereSql">The SQL search condition. For example: "FirstName='Smith' AND Zip=75038".</param>
+            <param name="orderBySql">The column name(s) followed by "ASC" (ascending) or "DESC" (descending).
+            Columns are sorted in ascending order by default. For example: "LastName ASC, FirstName ASC".</param>
+            <returns>A reference to the <see cref="T:System.Data.IDbCommand"/> object.</returns>
+        </member>
+        <member name="M:Base.UserCollectionBase.CreateGetCommand(System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Creates an <see cref="T:System.Data.IDbCommand"/> object for the specified search criteria.
+            </summary>
+            <param name="whereSql">The SQL search condition. For example: "FirstName='Smith' AND Zip=75038".</param>
+            <param name="orderBySql">The column name(s) followed by "ASC" (ascending) or "DESC" (descending).
+            Columns are sorted in ascending order by default. For example: "LastName ASC, FirstName ASC".</param>
+            <param name="startIndex">The index of the first record to return.</param>
+            <param name="length">The number of records to return.</param>		
+            <returns>A reference to the <see cref="T:System.Data.IDbCommand"/> object.</returns>
+        </member>
+        <member name="M:Base.UserCollectionBase.GetByPrimaryKey(System.Int32)">
+            <summary>
+            Gets <see cref="T:DbObj.UserRow"/> by the primary key.
+            </summary>
+            <param name="user_ID">The <c>User_ID</c> column value.</param>
+            <returns>An instance of <see cref="T:DbObj.UserRow"/> or null reference 
+            (Nothing in Visual Basic) if the object was not found.</returns>
+        </member>
+        <member name="M:Base.UserCollectionBase.Insert(DbObj.UserRow)">
+            <summary>
+            Adds a new record into the <c>User</c> table.
+            </summary>
+            <param name="value">The <see cref="T:DbObj.UserRow"/> object to be inserted.</param>
+        </member>
+        <member name="M:Base.UserCollectionBase.Update(DbObj.UserRow)">
+            <summary>
+            Updates a record in the <c>User</c> table.
+            </summary>
+            <param name="value">The <see cref="T:DbObj.UserRow"/>
+            object used to update the table record.</param>
+            <returns>true if the record was updated; otherwise, false.</returns>
+        </member>
+        <member name="M:Base.UserCollectionBase.Save(DbObj.UserRow)">
+            <summary>
+            Inserts or Updates a record in the <c>User</c> table.
+            If a row with the specified primary key exists then it is updated
+            otehrwise, a new row is added.
+            </summary>
+            <param name="value">The <see cref="T:DbObj.UserRow"/>
+            object used to save the table record.</param>
+        </member>
+        <member name="M:Base.UserCollectionBase.Delete(DbObj.UserRow)">
+            <summary>
+            Deletes the specified object from the <c>User</c> table.
+            </summary>
+            <param name="value">The <see cref="T:DbObj.UserRow"/> object to delete.</param>
+            <returns>true if the record was deleted; otherwise, false.</returns>
+        </member>
+        <member name="M:Base.UserCollectionBase.DeleteByPrimaryKey(System.Int32)">
+            <summary>
+            Deletes a record from the <c>User</c> table using
+            the specified primary key.
+            </summary>
+            <param name="user_ID">The <c>User_ID</c> column value.</param>
+            <returns>true if the record was deleted; otherwise, false.</returns>
+        </member>
+        <member name="M:Base.UserCollectionBase.Delete(System.String)">
+            <summary>
+            Deletes <c>User</c> records that match the specified criteria.
+            </summary>
+            <param name="whereSql">The SQL search condition. 
+            For example: <c>"FirstName='Smith' AND Zip=75038"</c>.</param>
+            <returns>The number of deleted records.</returns>
+        </member>
+        <member name="M:Base.UserCollectionBase.CreateDeleteCommand(System.String)">
+            <summary>
+            Creates an <see cref="T:System.Data.IDbCommand"/> object that can be used 
+            to delete <c>User</c> records that match the specified criteria.
+            </summary>
+            <param name="whereSql">The SQL search condition. 
+            For example: <c>"FirstName='Smith' AND Zip=75038"</c>.</param>
+            <returns>A reference to the <see cref="T:System.Data.IDbCommand"/> object.</returns>
+        </member>
+        <member name="M:Base.UserCollectionBase.DeleteAll">
+            <summary>
+            Deletes all records from the <c>User</c> table.
+            </summary>
+            <returns>The number of deleted records.</returns>
+        </member>
+        <member name="M:Base.UserCollectionBase.MapRecords(System.Data.IDbCommand)">
+            <summary>
+            Reads data using the specified command and returns 
+            an array of mapped objects.
+            </summary>
+            <param name="command">The <see cref="T:System.Data.IDbCommand"/> object.</param>
+            <returns>An array of <see cref="T:DbObj.UserRow"/> objects.</returns>
+        </member>
+        <member name="M:Base.UserCollectionBase.MapRecords(System.Data.IDataReader)">
+            <summary>
+            Reads data from the provided data reader and returns 
+            an array of mapped objects.
+            </summary>
+            <param name="reader">The <see cref="T:System.Data.IDataReader"/> object to read data from the table.</param>
+            <returns>An array of <see cref="T:DbObj.UserRow"/> objects.</returns>
+        </member>
+        <member name="M:Base.UserCollectionBase.MapRecords(System.Data.IDataReader,System.Int32,System.Int32,System.Int32@)">
+            <summary>
+            Reads data from the provided data reader and returns 
+            an array of mapped objects.
+            </summary>
+            <param name="reader">The <see cref="T:System.Data.IDataReader"/> object to read data from the table.</param>
+            <param name="startIndex">The index of the first record to map.</param>
+            <param name="length">The number of records to map.</param>
+            <param name="totalRecordCount">A reference parameter that returns the total number 
+            of records in the reader object if 0 was passed into the method; otherwise it returns -1.</param>
+            <returns>An array of <see cref="T:DbObj.UserRow"/> objects.</returns>
+        </member>
+        <member name="M:Base.UserCollectionBase.MapRecordsToDataTable(System.Data.IDbCommand)">
+            <summary>
+            Reads data using the specified command and returns 
+            a filled <see cref="T:System.Data.DataTable"/> object.
+            </summary>
+            <param name="command">The <see cref="T:System.Data.IDbCommand"/> object.</param>
+            <returns>A reference to the <see cref="T:System.Data.DataTable"/> object.</returns>
+        </member>
+        <member name="M:Base.UserCollectionBase.MapRecordsToDataTable(System.Data.IDataReader)">
+            <summary>
+            Reads data from the provided data reader and returns 
+            a filled <see cref="T:System.Data.DataTable"/> object.
+            </summary>
+            <param name="reader">The <see cref="T:System.Data.IDataReader"/> object to read data from the table.</param>
+            <returns>A reference to the <see cref="T:System.Data.DataTable"/> object.</returns>
+        </member>
+        <member name="M:Base.UserCollectionBase.MapRecordsToDataTable(System.Data.IDataReader,System.Int32,System.Int32,System.Int32@)">
+            <summary>
+            Reads data from the provided data reader and returns 
+            a filled <see cref="T:System.Data.DataTable"/> object.
+            </summary>
+            <param name="reader">The <see cref="T:System.Data.IDataReader"/> object to read data from the table.</param>
+            <param name="startIndex">The index of the first record to read.</param>
+            <param name="length">The number of records to read.</param>
+            <param name="totalRecordCount">A reference parameter that returns the total number 
+            of records in the reader object if 0 was passed into the method; otherwise it returns -1.</param>
+            <returns>A reference to the <see cref="T:System.Data.DataTable"/> object.</returns>
+        </member>
+        <member name="M:Base.UserCollectionBase.MapRow(System.Data.DataRow)">
+            <summary>
+            Converts <see cref="T:System.Data.DataRow"/> to <see cref="T:DbObj.UserRow"/>.
+            </summary>
+            <param name="row">The <see cref="T:System.Data.DataRow"/> object to be mapped.</param>
+            <returns>A reference to the <see cref="T:DbObj.UserRow"/> object.</returns>
+        </member>
+        <member name="M:Base.UserCollectionBase.CreateDataTable">
+            <summary>
+            Creates a <see cref="T:System.Data.DataTable"/> object for 
+            the <c>User</c> table.
+            </summary>
+            <returns>A reference to the <see cref="T:System.Data.DataTable"/> object.</returns>
+        </member>
+        <member name="M:Base.UserCollectionBase.AddParameter(System.Data.IDbCommand,System.String,System.Object)">
+            <summary>
+            Adds a new parameter to the specified command.
+            </summary>
+            <param name="cmd">The <see cref="T:System.Data.IDbCommand"/> object to add the parameter to.</param>
+            <param name="paramName">The name of the parameter.</param>
+            <param name="value">The value of the parameter.</param>
+            <returns>A reference to the added parameter.</returns>
+        </member>
+        <member name="M:Base.UserCollectionBase.Exist(System.Int32)">
+            <summary>
+            Exist <see cref="T:DbObj.UserRow"/> by the primary key.
+            </summary>
+            <param name="user_ID">The <c>User_ID</c> column value.</param>
+            <returns>An instance of <see cref="T:DbObj.UserRow"/> or null reference 
+            (Nothing in Visual Basic) if the object was not found.</returns>
+        </member>
+        <member name="T:Base.UserRowBase">
+            <summary>
+            The base class for <see cref="!:UserRow"/> that 
+            represents a record in the <c>User</c> table.
+            </summary>
+            <remarks>
+            Do not change this source code manually. Update the <see cref="!:UserRow"/>
+            class if you need to add or change some functionality.
+            </remarks>
+        </member>
+        <member name="F:Base.UserRowBase._user_ID">
+            _user_ID
+        </member>
+        <member name="F:Base.UserRowBase._userName">
+            _userName
+        </member>
+        <member name="F:Base.UserRowBase._password">
+            _password
+        </member>
+        <member name="F:Base.UserRowBase._fullName">
+            _fullName
+        </member>
+        <member name="F:Base.UserRowBase._avatar">
+            _avatar
+        </member>
+        <member name="F:Base.UserRowBase._address">
+            _address
+        </member>
+        <member name="F:Base.UserRowBase._email">
+            _email
+        </member>
+        <member name="F:Base.UserRowBase._phone">
+            _phone
+        </member>
+        <member name="F:Base.UserRowBase._position">
+            _position
+        </member>
+        <member name="F:Base.UserRowBase._createDate">
+            _createDate
+        </member>
+        <member name="F:Base.UserRowBase._modifyDate">
+            _modifyDate
+        </member>
+        <member name="F:Base.UserRowBase._createBy">
+            _createBy
+        </member>
+        <member name="F:Base.UserRowBase._modifyBy">
+            _modifyBy
+        </member>
+        <member name="F:Base.UserRowBase._status">
+            _status
+        </member>
+        <member name="F:Base.UserRowBase._sort">
+            _sort
+        </member>
+        <member name="F:Base.UserRowBase._birthDay">
+            _birthDay
+        </member>
+        <member name="F:Base.UserRowBase._gender">
+            _gender
+        </member>
+        <member name="M:Base.UserRowBase.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Base.UserRowBase"/> class.
+            </summary>
+        </member>
+        <member name="P:Base.UserRowBase.User_ID">
+            <summary>
+            Gets or sets the <c>User_ID</c> column value.
+            </summary>
+            <value>The <c>User_ID</c> column value.</value>
+        </member>
+        <member name="P:Base.UserRowBase.IsUser_IDNull">
+            <summary>
+            Indicates whether the <see cref="P:Base.UserRowBase.User_ID"/>
+            property value is null.
+            </summary>
+            <value>true if the property value is null, otherwise false.</value>
+        </member>
+        <member name="P:Base.UserRowBase.UserName">
+            <summary>
+            Gets or sets the <c>UserName</c> column value.
+            This column is nullable.
+            </summary>
+            <value>The <c>UserName</c> column value.</value>
+        </member>
+        <member name="P:Base.UserRowBase.IsUserNameNull">
+            <summary>
+            Indicates whether the <see cref="P:Base.UserRowBase.UserName"/>
+            property value is null.
+            </summary>
+            <value>true if the property value is null, otherwise false.</value>
+        </member>
+        <member name="P:Base.UserRowBase.Password">
+            <summary>
+            Gets or sets the <c>Password</c> column value.
+            This column is nullable.
+            </summary>
+            <value>The <c>Password</c> column value.</value>
+        </member>
+        <member name="P:Base.UserRowBase.IsPasswordNull">
+            <summary>
+            Indicates whether the <see cref="P:Base.UserRowBase.Password"/>
+            property value is null.
+            </summary>
+            <value>true if the property value is null, otherwise false.</value>
+        </member>
+        <member name="P:Base.UserRowBase.FullName">
+            <summary>
+            Gets or sets the <c>FullName</c> column value.
+            This column is nullable.
+            </summary>
+            <value>The <c>FullName</c> column value.</value>
+        </member>
+        <member name="P:Base.UserRowBase.IsFullNameNull">
+            <summary>
+            Indicates whether the <see cref="P:Base.UserRowBase.FullName"/>
+            property value is null.
+            </summary>
+            <value>true if the property value is null, otherwise false.</value>
+        </member>
+        <member name="P:Base.UserRowBase.Avatar">
+            <summary>
+            Gets or sets the <c>Avatar</c> column value.
+            This column is nullable.
+            </summary>
+            <value>The <c>Avatar</c> column value.</value>
+        </member>
+        <member name="P:Base.UserRowBase.IsAvatarNull">
+            <summary>
+            Indicates whether the <see cref="P:Base.UserRowBase.Avatar"/>
+            property value is null.
+            </summary>
+            <value>true if the property value is null, otherwise false.</value>
+        </member>
+        <member name="P:Base.UserRowBase.Address">
+            <summary>
+            Gets or sets the <c>Address</c> column value.
+            This column is nullable.
+            </summary>
+            <value>The <c>Address</c> column value.</value>
+        </member>
+        <member name="P:Base.UserRowBase.IsAddressNull">
+            <summary>
+            Indicates whether the <see cref="P:Base.UserRowBase.Address"/>
+            property value is null.
+            </summary>
+            <value>true if the property value is null, otherwise false.</value>
+        </member>
+        <member name="P:Base.UserRowBase.Email">
+            <summary>
+            Gets or sets the <c>Email</c> column value.
+            This column is nullable.
+            </summary>
+            <value>The <c>Email</c> column value.</value>
+        </member>
+        <member name="P:Base.UserRowBase.IsEmailNull">
+            <summary>
+            Indicates whether the <see cref="P:Base.UserRowBase.Email"/>
+            property value is null.
+            </summary>
+            <value>true if the property value is null, otherwise false.</value>
+        </member>
+        <member name="P:Base.UserRowBase.Phone">
+            <summary>
+            Gets or sets the <c>Phone</c> column value.
+            This column is nullable.
+            </summary>
+            <value>The <c>Phone</c> column value.</value>
+        </member>
+        <member name="P:Base.UserRowBase.IsPhoneNull">
+            <summary>
+            Indicates whether the <see cref="P:Base.UserRowBase.Phone"/>
+            property value is null.
+            </summary>
+            <value>true if the property value is null, otherwise false.</value>
+        </member>
+        <member name="P:Base.UserRowBase.Position">
+            <summary>
+            Gets or sets the <c>Position</c> column value.
+            This column is nullable.
+            </summary>
+            <value>The <c>Position</c> column value.</value>
+        </member>
+        <member name="P:Base.UserRowBase.IsPositionNull">
+            <summary>
+            Indicates whether the <see cref="P:Base.UserRowBase.Position"/>
+            property value is null.
+            </summary>
+            <value>true if the property value is null, otherwise false.</value>
+        </member>
+        <member name="P:Base.UserRowBase.CreateDate">
+            <summary>
+            Gets or sets the <c>CreateDate</c> column value.
+            This column is nullable.
+            </summary>
+            <value>The <c>CreateDate</c> column value.</value>
+        </member>
+        <member name="P:Base.UserRowBase.IsCreateDateNull">
+            <summary>
+            Indicates whether the <see cref="P:Base.UserRowBase.CreateDate"/>
+            property value is null.
+            </summary>
+            <value>true if the property value is null, otherwise false.</value>
+        </member>
+        <member name="P:Base.UserRowBase.ModifyDate">
+            <summary>
+            Gets or sets the <c>ModifyDate</c> column value.
+            This column is nullable.
+            </summary>
+            <value>The <c>ModifyDate</c> column value.</value>
+        </member>
+        <member name="P:Base.UserRowBase.IsModifyDateNull">
+            <summary>
+            Indicates whether the <see cref="P:Base.UserRowBase.ModifyDate"/>
+            property value is null.
+            </summary>
+            <value>true if the property value is null, otherwise false.</value>
+        </member>
+        <member name="P:Base.UserRowBase.CreateBy">
+            <summary>
+            Gets or sets the <c>CreateBy</c> column value.
+            This column is nullable.
+            </summary>
+            <value>The <c>CreateBy</c> column value.</value>
+        </member>
+        <member name="P:Base.UserRowBase.IsCreateByNull">
+            <summary>
+            Indicates whether the <see cref="P:Base.UserRowBase.CreateBy"/>
+            property value is null.
+            </summary>
+            <value>true if the property value is null, otherwise false.</value>
+        </member>
+        <member name="P:Base.UserRowBase.ModifyBy">
+            <summary>
+            Gets or sets the <c>ModifyBy</c> column value.
+            This column is nullable.
+            </summary>
+            <value>The <c>ModifyBy</c> column value.</value>
+        </member>
+        <member name="P:Base.UserRowBase.IsModifyByNull">
+            <summary>
+            Indicates whether the <see cref="P:Base.UserRowBase.ModifyBy"/>
+            property value is null.
+            </summary>
+            <value>true if the property value is null, otherwise false.</value>
+        </member>
+        <member name="P:Base.UserRowBase.Status">
+            <summary>
+            Gets or sets the <c>Status</c> column value.
+            This column is nullable.
+            </summary>
+            <value>The <c>Status</c> column value.</value>
+        </member>
+        <member name="P:Base.UserRowBase.IsStatusNull">
+            <summary>
+            Indicates whether the <see cref="P:Base.UserRowBase.Status"/>
+            property value is null.
+            </summary>
+            <value>true if the property value is null, otherwise false.</value>
+        </member>
+        <member name="P:Base.UserRowBase.Sort">
+            <summary>
+            Gets or sets the <c>Sort</c> column value.
+            This column is nullable.
+            </summary>
+            <value>The <c>Sort</c> column value.</value>
+        </member>
+        <member name="P:Base.UserRowBase.IsSortNull">
+            <summary>
+            Indicates whether the <see cref="P:Base.UserRowBase.Sort"/>
+            property value is null.
+            </summary>
+            <value>true if the property value is null, otherwise false.</value>
+        </member>
+        <member name="P:Base.UserRowBase.BirthDay">
+            <summary>
+            Gets or sets the <c>BirthDay</c> column value.
+            This column is nullable.
+            </summary>
+            <value>The <c>BirthDay</c> column value.</value>
+        </member>
+        <member name="P:Base.UserRowBase.IsBirthDayNull">
+            <summary>
+            Indicates whether the <see cref="P:Base.UserRowBase.BirthDay"/>
+            property value is null.
+            </summary>
+            <value>true if the property value is null, otherwise false.</value>
+        </member>
+        <member name="P:Base.UserRowBase.Gender">
+            <summary>
+            Gets or sets the <c>Gender</c> column value.
+            This column is nullable.
+            </summary>
+            <value>The <c>Gender</c> column value.</value>
+        </member>
+        <member name="P:Base.UserRowBase.IsGenderNull">
+            <summary>
+            Indicates whether the <see cref="P:Base.UserRowBase.Gender"/>
+            property value is null.
+            </summary>
+            <value>true if the property value is null, otherwise false.</value>
+        </member>
+        <member name="M:Base.UserRowBase.ToString">
+            <summary>
+            Returns the string representation of this instance.
+            </summary>
+            <returns>The string representation of this instance.</returns>
+        </member>
+        <member name="M:DbObj.Conllection.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:DbObj.Conllection"/> class.
+            </summary>
+        </member>
+        <member name="T:DbObj.UserCollection">
+            <summary>
+            Represents the <c>User</c> table.
+            </summary>
+        </member>
+        <member name="T:DbObj.UserRow">
+            <summary>
+            Represents a record in the <c>User</c> table.
+            </summary>
+        </member>
+        <member name="M:DbObj.UserRow.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:DbObj.UserRow"/> class.
+            </summary>
+        </member>
+        <member name="T:DataAccessLocator">
+            <summary>
+            The base class for the <see cref="!:GenCode2"/> class that 
+            represents a connection to the <c>GenCode2</c> database. 
+            </summary>
+            <remarks>
+            Do not change this source code. Modify the GenCode2 class
+            if you need to add or change some functionality.
+            </remarks>
+        </member>
+        <member name="M:DataAccessLocator.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:DataAccessLocator"/> 
+            class and opens the database connection.
+            </summary>
+        </member>
+        <member name="M:DataAccessLocator.GetUserCollection">
+            <summary>
+            Gets an object that represents the <c>User</c> table.
+            </summary>
+            <value>A reference to the <see cref="!:UserCollection"/> object.</value>
+        </member>
+        <member name="T:Database">
+            <summary>
+            Represents a connection to the <c>GenCode2</c> database.
+            </summary>
+            <remarks>
+            If the <c>Database</c> goes out of scope, the connection to the 
+            database is not closed automatically. Therefore, you must explicitly close the 
+            connection by calling the <c>Close</c> or <c>Dispose</c> method.
+            </remarks>
+            <example>
+            using(Database db = new Database())
+            {
+            	UserRow[] rows = db.UserTable.GetAll();
+            }
+            </example>
+        </member>
+        <member name="M:Database.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Database"/> class.
+            </summary>
+        </member>
+        <member name="M:Database.CreateConnection">
+            <summary>
+            Creates a new connection to the database.
+            </summary>
+            <returns>An <see cref="T:System.Data.IDbConnection"/> object.</returns>
+        </member>
+        <member name="M:Database.CreateSqlParameterName(System.String)">
+            <summary>
+            Returns a SQL statement parameter name that is specific for the data provider.
+            For example it returns ? for OleDb provider, or @paramName for MS SQL provider.
+            </summary>
+            <param name="paramName">The data provider neutral SQL parameter name.</param>
+            <returns>The SQL statement parameter name.</returns>
+        </member>
+        <member name="M:Database.CreateCollectionParameterName(System.String)">
+            <summary>
+            Creates a .Net data provider specific parameter name that is used to
+            create a parameter object and add it to the parameter collection of
+            <see cref="T:System.Data.IDbCommand"/>.
+            </summary>
+            <param name="baseParamName">The base name of the parameter.</param>
+            <returns>The full data provider specific parameter name.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,51 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Web;
+
+/// <summary>
+/// Summary description for Services
+/// </summary>
+public class SessionUser
+{
+    private DataTable data;
+    public SessionUser()
+    {
+        data = new DataTable();
+        data.Columns.Add("User_ID", typeof(int));
+        data.Columns.Add("UserName", typeof(string));
+        data.Columns.Add("Password", typeof(string));
+        data.PrimaryKey = new DataColumn[] { this.data.Columns["ID"] };
+    }
+
+    public bool Add(int User_ID, string UserName, string Password)
+    {
+        try
+        {
+
+            DataRow newrow = this.data.NewRow();
+            newrow["User_ID"] = User_ID;
+            newrow["UserName"] = UserName;
+            newrow["Password"] = Password;
+            this.data.Rows.Add(newrow);
+            return true;
+        }
+        catch
+        {
+            return false;
+        }
+    }
+    public DataTable Data
+    {
+        get
+        {
+            return this.data;
+        }
+    }
+    public bool Clear()
+    {
+        this.data.Clear();
+        return true;
+    }
+
+}

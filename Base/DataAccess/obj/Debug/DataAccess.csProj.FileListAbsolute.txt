@@ -1,0 +1,79 @@
+D:\CHECKVN\CheckVN- SupplyChains\Code\WebUI\Bin\DataAccess.dll.config
+D:\CHECKVN\CheckVN- SupplyChains\Code\WebUI\Bin\DataAccess.dll
+D:\CHECKVN\CheckVN- SupplyChains\Code\WebUI\Bin\DataAccess.pdb
+D:\CHECKVN\CheckVN- SupplyChains\Code\WebUI\Bin\DataAccess.xml
+D:\CHECKVN\CheckVN- SupplyChains\Code\DataAccess\obj\Debug\DataAccess.csProjAssemblyReference.cache
+D:\CHECKVN\CheckVN- SupplyChains\Code\DataAccess\obj\Debug\DataAccess.csProj.CoreCompileInputs.cache
+D:\CHECKVN\CheckVN- SupplyChains\Code\DataAccess\obj\Debug\DataAccess.csProj.CopyComplete
+D:\CHECKVN\CheckVN- SupplyChains\Code\DataAccess\obj\Debug\DataAccess.dll
+D:\CHECKVN\CheckVN- SupplyChains\Code\DataAccess\obj\Debug\DataAccess.pdb
+D:\CHECKVN\Ban Nong Thon Moi\Code\DataAccess\obj\Debug\DataAccess.csProjAssemblyReference.cache
+D:\CHECKVN\Ban Nong Thon Moi\Code\DataAccess\obj\Debug\DataAccess.csProj.CoreCompileInputs.cache
+D:\CHECKVN\Ban Nong Thon Moi\Code\DataAccess\obj\Debug\DataAccess.dll
+D:\CHECKVN\Ban Nong Thon Moi\Code\DataAccess\obj\Debug\DataAccess.pdb
+D:\CHECKVN\Ban Nong Thon Moi\Code\WebUI\Bin\DataAccess.dll
+D:\CHECKVN\Ban Nong Thon Moi\Code\WebUI\Bin\DataAccess.pdb
+D:\CHECKVN\Ban Nong Thon Moi\Code\WebUI\Bin\DataAccess.xml
+D:\CHECKVN\Ban Nong Thon Moi\Code\DataAccess\obj\Debug\DataAccess.csProj.CopyComplete
+D:\project\5.web NN\webBN\WebUI\Bin\DataAccess.dll
+D:\project\5.web NN\webBN\WebUI\Bin\DataAccess.pdb
+D:\project\5.web NN\webBN\WebUI\Bin\DataAccess.xml
+D:\project\5.web NN\webBN\DataAccess\obj\Debug\DataAccess.csProjAssemblyReference.cache
+D:\project\5.web NN\webBN\DataAccess\obj\Debug\DataAccess.csProj.CoreCompileInputs.cache
+D:\project\5.web NN\webBN\DataAccess\obj\Debug\DataAccess.csProj.CopyComplete
+D:\project\5.web NN\webBN\DataAccess\obj\Debug\DataAccess.dll
+D:\project\5.web NN\webBN\DataAccess\obj\Debug\DataAccess.pdb
+D:\CHECKVN\Ban Nong Thon Moi\Source\WebUI\Bin\DataAccess.dll
+D:\CHECKVN\Ban Nong Thon Moi\Source\WebUI\Bin\DataAccess.pdb
+D:\CHECKVN\Ban Nong Thon Moi\Source\WebUI\Bin\DataAccess.xml
+D:\CHECKVN\Ban Nong Thon Moi\Source\DataAccess\obj\Debug\DataAccess.csProjAssemblyReference.cache
+D:\CHECKVN\Ban Nong Thon Moi\Source\DataAccess\obj\Debug\DataAccess.csProj.CoreCompileInputs.cache
+D:\CHECKVN\Ban Nong Thon Moi\Source\DataAccess\obj\Debug\DataAccess.csProj.CopyComplete
+D:\CHECKVN\Ban Nong Thon Moi\Source\DataAccess\obj\Debug\DataAccess.dll
+D:\CHECKVN\Ban Nong Thon Moi\Source\DataAccess\obj\Debug\DataAccess.pdb
+D:\Source Code\WEB NTM\WebUI\Bin\DataAccess.dll
+D:\Source Code\WEB NTM\WebUI\Bin\DataAccess.pdb
+D:\Source Code\WEB NTM\WebUI\Bin\DataAccess.xml
+D:\Source Code\WEB NTM\DataAccess\obj\Debug\DataAccess.csProjAssemblyReference.cache
+D:\Source Code\WEB NTM\DataAccess\obj\Debug\DataAccess.csProj.CoreCompileInputs.cache
+D:\Source Code\WEB NTM\DataAccess\obj\Debug\DataAccess.csProj.CopyComplete
+D:\Source Code\WEB NTM\DataAccess\obj\Debug\DataAccess.dll
+D:\Source Code\WEB NTM\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Phong\Desktop\TTS_CheckVN\checknetvn_ntm\WebUI\Bin\DataAccess.dll
+C:\Users\Phong\Desktop\TTS_CheckVN\checknetvn_ntm\WebUI\Bin\DataAccess.pdb
+C:\Users\Phong\Desktop\TTS_CheckVN\checknetvn_ntm\WebUI\Bin\DataAccess.xml
+C:\Users\Phong\Desktop\TTS_CheckVN\checknetvn_ntm\DataAccess\obj\Debug\DataAccess.csProjAssemblyReference.cache
+C:\Users\Phong\Desktop\TTS_CheckVN\checknetvn_ntm\DataAccess\obj\Debug\DataAccess.csProj.CopyComplete
+C:\Users\Phong\Desktop\TTS_CheckVN\checknetvn_ntm\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Phong\Desktop\TTS_CheckVN\checknetvn_ntm\DataAccess\obj\Debug\DataAccess.pdb
+D:\Source Code\WEB NTM Version Final\WebUI\Bin\DataAccess.dll
+D:\Source Code\WEB NTM Version Final\WebUI\Bin\DataAccess.pdb
+D:\Source Code\WEB NTM Version Final\WebUI\Bin\DataAccess.xml
+D:\Source Code\WEB NTM Version Final\DataAccess\obj\Debug\DataAccess.csProjAssemblyReference.cache
+D:\Source Code\WEB NTM Version Final\DataAccess\obj\Debug\DataAccess.csProj.CoreCompileInputs.cache
+D:\Source Code\WEB NTM Version Final\DataAccess\obj\Debug\DataAccess.csProj.CopyComplete
+D:\Source Code\WEB NTM Version Final\DataAccess\obj\Debug\DataAccess.dll
+D:\Source Code\WEB NTM Version Final\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\Phong\Desktop\TTS_CheckVN\NTM\WebUI\Bin\DataAccess.dll
+C:\Users\Phong\Desktop\TTS_CheckVN\NTM\WebUI\Bin\DataAccess.pdb
+C:\Users\Phong\Desktop\TTS_CheckVN\NTM\WebUI\Bin\DataAccess.xml
+C:\Users\Phong\Desktop\TTS_CheckVN\NTM\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+C:\Users\Phong\Desktop\TTS_CheckVN\NTM\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\Phong\Desktop\TTS_CheckVN\NTM\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\Phong\Desktop\TTS_CheckVN\NTM\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\CHECKVN\Downloads\v4\WebUI\Bin\DataAccess.dll
+C:\Users\CHECKVN\Downloads\v4\WebUI\Bin\DataAccess.pdb
+C:\Users\CHECKVN\Downloads\v4\WebUI\Bin\DataAccess.xml
+C:\Users\CHECKVN\Downloads\v4\DataAccess\obj\Debug\DataAccess.csProj.AssemblyReference.cache
+C:\Users\CHECKVN\Downloads\v4\DataAccess\obj\Debug\DataAccess.csProj.CoreCompileInputs.cache
+C:\Users\CHECKVN\Downloads\v4\DataAccess\obj\Debug\DataAccess.csProj.CopyComplete
+C:\Users\CHECKVN\Downloads\v4\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\CHECKVN\Downloads\v4\DataAccess\obj\Debug\DataAccess.pdb
+D:\CheckVN2022\TTS_CheckVN\Base\DataAccess\obj\Debug\DataAccess.csProj.AssemblyReference.cache
+D:\CheckVN2022\TTS_CheckVN\Base\DataAccess\obj\Debug\DataAccess.csProj.CoreCompileInputs.cache
+D:\CheckVN2022\TTS_CheckVN\Base\DataAccess\obj\Debug\DataAccess.dll
+D:\CheckVN2022\TTS_CheckVN\Base\DataAccess\obj\Debug\DataAccess.pdb
+D:\CheckVN2022\TTS_CheckVN\Base\WebUI\Bin\DataAccess.dll
+D:\CheckVN2022\TTS_CheckVN\Base\WebUI\Bin\DataAccess.pdb
+D:\CheckVN2022\TTS_CheckVN\Base\WebUI\Bin\DataAccess.xml
+D:\CheckVN2022\TTS_CheckVN\Base\DataAccess\obj\Debug\DataAccess.csProj.CopyComplete

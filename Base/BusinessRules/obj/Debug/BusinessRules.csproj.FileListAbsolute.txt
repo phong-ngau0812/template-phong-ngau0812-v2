@@ -1,0 +1,181 @@
+D:\Emotion-VietNam\Project\asiatica.com\01-Coding\asiatica\WebUI\Bin\BusinessRules.dll
+D:\Emotion-VietNam\Project\asiatica.com\01-Coding\asiatica\WebUI\Bin\BusinessRules.pdb
+D:\Emotion-VietNam\Project\asiatica.com\01-Coding\asiatica\WebUI\Bin\BusinessRules.xml
+D:\Emotion-VietNam\Project\asiatica.com\01-Coding\asiatica\BusinessRules\obj\Debug\ResolveAssemblyReference.cache
+D:\Emotion-VietNam\Project\asiatica.com\01-Coding\asiatica\BusinessRules\obj\Debug\BusinessRules.dll
+D:\Emotion-VietNam\Project\asiatica.com\01-Coding\asiatica\BusinessRules\obj\Debug\BusinessRules.pdb
+D:\Emotion-VietNam\Project\asiatica.com\memcache\Coding\WebUI\Bin\BusinessRules.dll
+D:\Emotion-VietNam\Project\asiatica.com\memcache\Coding\WebUI\Bin\BusinessRules.pdb
+D:\Emotion-VietNam\Project\asiatica.com\memcache\Coding\WebUI\Bin\BusinessRules.xml
+D:\Emotion-VietNam\Project\asiatica.com\memcache\Coding\BusinessRules\obj\Debug\BusinessRules.dll
+D:\Emotion-VietNam\Project\asiatica.com\memcache\Coding\BusinessRules\obj\Debug\BusinessRules.pdb
+D:\Emotion-VietNam\Project\asiatica.com\memcache\Coding\BusinessRules\obj\Debug\BusinessRules.csprojResolveAssemblyReference.cache
+D:\Document\Code\AST\webde\BusinessRules\obj\Debug\BusinessRules.csprojResolveAssemblyReference.cache
+D:\Document\Code\AST\webde\BusinessRules\obj\Debug\BusinessRules.dll
+D:\Document\Code\AST\webde\BusinessRules\obj\Debug\BusinessRules.pdb
+D:\Document\Code\AST\webde\WebUI\Bin\BusinessRules.dll
+D:\Document\Code\AST\webde\WebUI\Bin\BusinessRules.pdb
+D:\Document\Code\AST\webde\WebUI\Bin\BusinessRules.xml
+D:\Emotion-VietNam\Project\asiatica.com\Web2017\asiatica-travel.de\01.Coding\WebUI\Bin\BusinessRules.dll
+D:\Emotion-VietNam\Project\asiatica.com\Web2017\asiatica-travel.de\01.Coding\WebUI\Bin\BusinessRules.pdb
+D:\Emotion-VietNam\Project\asiatica.com\Web2017\asiatica-travel.de\01.Coding\WebUI\Bin\BusinessRules.xml
+D:\Emotion-VietNam\Project\asiatica.com\Web2017\asiatica-travel.de\01.Coding\BusinessRules\obj\Debug\BusinessRules.csprojResolveAssemblyReference.cache
+D:\Emotion-VietNam\Project\asiatica.com\Web2017\asiatica-travel.de\01.Coding\BusinessRules\obj\Debug\BusinessRules.dll
+D:\Emotion-VietNam\Project\asiatica.com\Web2017\asiatica-travel.de\01.Coding\BusinessRules\obj\Debug\BusinessRules.pdb
+D:\Asiatica\Asiatica\asiatica-travel.de\WebUI\Bin\BusinessRules.dll
+D:\Asiatica\Asiatica\asiatica-travel.de\WebUI\Bin\BusinessRules.pdb
+D:\Asiatica\Asiatica\asiatica-travel.de\WebUI\Bin\BusinessRules.xml
+D:\Asiatica\Asiatica\asiatica-travel.de\BusinessRules\obj\Debug\BusinessRules.csprojResolveAssemblyReference.cache
+D:\Asiatica\Asiatica\asiatica-travel.de\BusinessRules\obj\Debug\BusinessRules.dll
+D:\Asiatica\Asiatica\asiatica-travel.de\BusinessRules\obj\Debug\BusinessRules.pdb
+D:\Du lịch\vietnamstay.com\vietnamstay.com\WebUI\Bin\BusinessRules.dll
+D:\Du lịch\vietnamstay.com\vietnamstay.com\WebUI\Bin\BusinessRules.pdb
+D:\Du lịch\vietnamstay.com\vietnamstay.com\WebUI\Bin\BusinessRules.xml
+D:\Du lịch\vietnamstay.com\vietnamstay.com\BusinessRules\obj\Debug\BusinessRules.csprojResolveAssemblyReference.cache
+D:\Du lịch\vietnamstay.com\vietnamstay.com\BusinessRules\obj\Debug\BusinessRules.csproj.CoreCompileInputs.cache
+D:\Du lịch\vietnamstay.com\vietnamstay.com\BusinessRules\obj\Debug\BusinessRules.dll
+D:\Du lịch\vietnamstay.com\vietnamstay.com\BusinessRules\obj\Debug\BusinessRules.pdb
+E:\Free\vietnamstay.com\vietnamstay.com\WebUI\Bin\BusinessRules.dll
+E:\Free\vietnamstay.com\vietnamstay.com\WebUI\Bin\BusinessRules.pdb
+E:\Free\vietnamstay.com\vietnamstay.com\WebUI\Bin\BusinessRules.xml
+E:\Free\vietnamstay.com\vietnamstay.com\BusinessRules\obj\Debug\BusinessRules.csprojResolveAssemblyReference.cache
+E:\Free\vietnamstay.com\vietnamstay.com\BusinessRules\obj\Debug\BusinessRules.csproj.CoreCompileInputs.cache
+E:\Free\vietnamstay.com\vietnamstay.com\BusinessRules\obj\Debug\BusinessRules.csproj.CopyComplete
+E:\Free\vietnamstay.com\vietnamstay.com\BusinessRules\obj\Debug\BusinessRules.dll
+E:\Free\vietnamstay.com\vietnamstay.com\BusinessRules\obj\Debug\BusinessRules.pdb
+D:\vietnamstay.com\vietnamstay.com\BusinessRules\obj\Debug\BusinessRules.csprojResolveAssemblyReference.cache
+D:\vietnamstay.com\vietnamstay.com\BusinessRules\obj\Debug\BusinessRules.csproj.CoreCompileInputs.cache
+D:\vietnamstay.com\vietnamstay.com\BusinessRules\obj\Debug\BusinessRules.dll
+D:\vietnamstay.com\vietnamstay.com\BusinessRules\obj\Debug\BusinessRules.pdb
+D:\vietnamstay.com\vietnamstay.com\WebUI\Bin\BusinessRules.dll
+D:\vietnamstay.com\vietnamstay.com\WebUI\Bin\BusinessRules.pdb
+D:\vietnamstay.com\vietnamstay.com\WebUI\Bin\BusinessRules.xml
+E:\Code 2019\vietnamstay.com\vietnamstay.com\WebUI\Bin\BusinessRules.dll
+E:\Code 2019\vietnamstay.com\vietnamstay.com\WebUI\Bin\BusinessRules.pdb
+E:\Code 2019\vietnamstay.com\vietnamstay.com\WebUI\Bin\BusinessRules.xml
+E:\Code 2019\vietnamstay.com\vietnamstay.com\BusinessRules\obj\Debug\BusinessRules.csprojAssemblyReference.cache
+E:\Code 2019\vietnamstay.com\vietnamstay.com\BusinessRules\obj\Debug\BusinessRules.csproj.CoreCompileInputs.cache
+E:\Code 2019\vietnamstay.com\vietnamstay.com\BusinessRules\obj\Debug\BusinessRules.csproj.CopyComplete
+E:\Code 2019\vietnamstay.com\vietnamstay.com\BusinessRules\obj\Debug\BusinessRules.dll
+E:\Code 2019\vietnamstay.com\vietnamstay.com\BusinessRules\obj\Debug\BusinessRules.pdb
+G:\Code 2019\ExportPDF\BusinessRules\obj\Debug\BusinessRules.csprojAssemblyReference.cache
+G:\Code 2019\ExportPDF\BusinessRules\obj\Debug\BusinessRules.csproj.CoreCompileInputs.cache
+G:\Code 2019\ExportPDF\BusinessRules\obj\Debug\BusinessRules.dll
+G:\Code 2019\ExportPDF\BusinessRules\obj\Debug\BusinessRules.pdb
+G:\Code 2019\ExportPDF\WebUI\Bin\BusinessRules.dll
+G:\Code 2019\ExportPDF\WebUI\Bin\BusinessRules.pdb
+G:\Code 2019\ExportPDF\WebUI\Bin\BusinessRules.xml
+G:\Code 2019\ExportPDF\BusinessRules\obj\Debug\BusinessRules.csproj.CopyComplete
+G:\Code 2019\ExportPDF\ExportPDF\WebUI\Bin\BusinessRules.dll
+G:\Code 2019\ExportPDF\ExportPDF\WebUI\Bin\BusinessRules.pdb
+G:\Code 2019\ExportPDF\ExportPDF\WebUI\Bin\BusinessRules.xml
+G:\Code 2019\ExportPDF\ExportPDF\BusinessRules\obj\Debug\BusinessRules.csprojAssemblyReference.cache
+G:\Code 2019\ExportPDF\ExportPDF\BusinessRules\obj\Debug\BusinessRules.csproj.CoreCompileInputs.cache
+G:\Code 2019\ExportPDF\ExportPDF\BusinessRules\obj\Debug\BusinessRules.csproj.CopyComplete
+G:\Code 2019\ExportPDF\ExportPDF\BusinessRules\obj\Debug\BusinessRules.dll
+G:\Code 2019\ExportPDF\ExportPDF\BusinessRules\obj\Debug\BusinessRules.pdb
+G:\Data Công ty\Code 2019\ExportPDF\ExportPDF\WebUI\Bin\BusinessRules.dll
+G:\Data Công ty\Code 2019\ExportPDF\ExportPDF\WebUI\Bin\BusinessRules.pdb
+G:\Data Công ty\Code 2019\ExportPDF\ExportPDF\WebUI\Bin\BusinessRules.xml
+G:\Data Công ty\Code 2019\ExportPDF\ExportPDF\BusinessRules\obj\Debug\BusinessRules.csprojAssemblyReference.cache
+G:\Data Công ty\Code 2019\ExportPDF\ExportPDF\BusinessRules\obj\Debug\BusinessRules.csproj.CoreCompileInputs.cache
+G:\Data Công ty\Code 2019\ExportPDF\ExportPDF\BusinessRules\obj\Debug\BusinessRules.csproj.CopyComplete
+G:\Data Công ty\Code 2019\ExportPDF\ExportPDF\BusinessRules\obj\Debug\BusinessRules.dll
+G:\Data Công ty\Code 2019\ExportPDF\ExportPDF\BusinessRules\obj\Debug\BusinessRules.pdb
+D:\2020\ExportPDF\ExportPDF\BusinessRules\obj\Debug\BusinessRules.csprojAssemblyReference.cache
+D:\2020\ExportPDF\ExportPDF\BusinessRules\obj\Debug\BusinessRules.csproj.CoreCompileInputs.cache
+D:\2020\ExportPDF\ExportPDF\BusinessRules\obj\Debug\BusinessRules.dll
+D:\2020\ExportPDF\ExportPDF\BusinessRules\obj\Debug\BusinessRules.pdb
+D:\2020\ExportPDF\ExportPDF\WebUI\Bin\BusinessRules.dll
+D:\2020\ExportPDF\ExportPDF\WebUI\Bin\BusinessRules.pdb
+D:\2020\ExportPDF\ExportPDF\WebUI\Bin\BusinessRules.xml
+D:\2020\ExportPDF\ExportPDF\BusinessRules\obj\Debug\BusinessRules.csproj.CopyComplete
+D:\2020\ExportPDF\ExportPDF\ExportPdf\bin\BusinessRules.dll
+D:\2020\ExportPDF\ExportPDF\ExportPdf\bin\BusinessRules.pdb
+D:\2020\ExportPDF\ExportPDF\ExportPdf\bin\BusinessRules.xml
+D:\2020\VuonQuocGiaHLS\VuonQuocGiaHLS\WebUI\Bin\BusinessRules.dll
+D:\2020\VuonQuocGiaHLS\VuonQuocGiaHLS\WebUI\Bin\BusinessRules.pdb
+D:\2020\VuonQuocGiaHLS\VuonQuocGiaHLS\WebUI\Bin\BusinessRules.xml
+D:\2020\VuonQuocGiaHLS\VuonQuocGiaHLS\BusinessRules\obj\Debug\BusinessRules.csprojAssemblyReference.cache
+D:\2020\VuonQuocGiaHLS\VuonQuocGiaHLS\BusinessRules\obj\Debug\BusinessRules.csproj.CoreCompileInputs.cache
+D:\2020\VuonQuocGiaHLS\VuonQuocGiaHLS\BusinessRules\obj\Debug\BusinessRules.csproj.CopyComplete
+D:\2020\VuonQuocGiaHLS\VuonQuocGiaHLS\BusinessRules\obj\Debug\BusinessRules.dll
+D:\2020\VuonQuocGiaHLS\VuonQuocGiaHLS\BusinessRules\obj\Debug\BusinessRules.pdb
+D:\project\3.farm\code\WebUI\Bin\BusinessRules.dll
+D:\project\3.farm\code\WebUI\Bin\BusinessRules.pdb
+D:\project\3.farm\code\WebUI\Bin\BusinessRules.xml
+D:\project\3.farm\code\BusinessRules\obj\Debug\BusinessRules.csprojAssemblyReference.cache
+D:\project\3.farm\code\BusinessRules\obj\Debug\BusinessRules.csproj.CoreCompileInputs.cache
+D:\project\3.farm\code\BusinessRules\obj\Debug\BusinessRules.csproj.CopyComplete
+D:\project\3.farm\code\BusinessRules\obj\Debug\BusinessRules.dll
+D:\project\3.farm\code\BusinessRules\obj\Debug\BusinessRules.pdb
+D:\CHECKVN\CheckVN- SupplyChains\Code\WebUI\Bin\BusinessRules.dll
+D:\CHECKVN\CheckVN- SupplyChains\Code\WebUI\Bin\BusinessRules.pdb
+D:\CHECKVN\CheckVN- SupplyChains\Code\WebUI\Bin\BusinessRules.xml
+D:\CHECKVN\CheckVN- SupplyChains\Code\BusinessRules\obj\Debug\BusinessRules.csprojAssemblyReference.cache
+D:\CHECKVN\CheckVN- SupplyChains\Code\BusinessRules\obj\Debug\BusinessRules.csproj.CoreCompileInputs.cache
+D:\CHECKVN\CheckVN- SupplyChains\Code\BusinessRules\obj\Debug\BusinessRules.csproj.CopyComplete
+D:\CHECKVN\CheckVN- SupplyChains\Code\BusinessRules\obj\Debug\BusinessRules.dll
+D:\CHECKVN\CheckVN- SupplyChains\Code\BusinessRules\obj\Debug\BusinessRules.pdb
+G:\SupplierChains\esupplychain\WebUI\Bin\BusinessRules.dll
+G:\SupplierChains\esupplychain\WebUI\Bin\BusinessRules.pdb
+G:\SupplierChains\esupplychain\WebUI\Bin\BusinessRules.xml
+G:\SupplierChains\esupplychain\BusinessRules\obj\Debug\BusinessRules.csprojAssemblyReference.cache
+G:\SupplierChains\esupplychain\BusinessRules\obj\Debug\BusinessRules.csproj.CoreCompileInputs.cache
+G:\SupplierChains\esupplychain\BusinessRules\obj\Debug\BusinessRules.csproj.CopyComplete
+G:\SupplierChains\esupplychain\BusinessRules\obj\Debug\BusinessRules.dll
+G:\SupplierChains\esupplychain\BusinessRules\obj\Debug\BusinessRules.pdb
+D:\CHECKVN\Ban Nong Thon Moi\Code\WebUI\Bin\BusinessRules.dll
+D:\CHECKVN\Ban Nong Thon Moi\Code\WebUI\Bin\BusinessRules.pdb
+D:\CHECKVN\Ban Nong Thon Moi\Code\WebUI\Bin\BusinessRules.xml
+D:\CHECKVN\Ban Nong Thon Moi\Code\BusinessRules\obj\Debug\BusinessRules.csprojAssemblyReference.cache
+D:\CHECKVN\Ban Nong Thon Moi\Code\BusinessRules\obj\Debug\BusinessRules.csproj.CoreCompileInputs.cache
+D:\CHECKVN\Ban Nong Thon Moi\Code\BusinessRules\obj\Debug\BusinessRules.csproj.CopyComplete
+D:\CHECKVN\Ban Nong Thon Moi\Code\BusinessRules\obj\Debug\BusinessRules.dll
+D:\CHECKVN\Ban Nong Thon Moi\Code\BusinessRules\obj\Debug\BusinessRules.pdb
+D:\project\5.web NN\webBN\WebUI\Bin\BusinessRules.dll
+D:\project\5.web NN\webBN\WebUI\Bin\BusinessRules.pdb
+D:\project\5.web NN\webBN\WebUI\Bin\BusinessRules.xml
+D:\project\5.web NN\webBN\BusinessRules\obj\Debug\BusinessRules.csprojAssemblyReference.cache
+D:\project\5.web NN\webBN\BusinessRules\obj\Debug\BusinessRules.csproj.CoreCompileInputs.cache
+D:\project\5.web NN\webBN\BusinessRules\obj\Debug\BusinessRules.csproj.CopyComplete
+D:\project\5.web NN\webBN\BusinessRules\obj\Debug\BusinessRules.dll
+D:\project\5.web NN\webBN\BusinessRules\obj\Debug\BusinessRules.pdb
+D:\Source Code\WEB NTM\WebUI\Bin\BusinessRules.dll
+D:\Source Code\WEB NTM\WebUI\Bin\BusinessRules.pdb
+D:\Source Code\WEB NTM\WebUI\Bin\BusinessRules.xml
+D:\Source Code\WEB NTM\BusinessRules\obj\Debug\BusinessRules.csprojAssemblyReference.cache
+D:\Source Code\WEB NTM\BusinessRules\obj\Debug\BusinessRules.csproj.CoreCompileInputs.cache
+D:\Source Code\WEB NTM\BusinessRules\obj\Debug\BusinessRules.csproj.CopyComplete
+D:\Source Code\WEB NTM\BusinessRules\obj\Debug\BusinessRules.dll
+D:\Source Code\WEB NTM\BusinessRules\obj\Debug\BusinessRules.pdb
+C:\Users\Phong\Desktop\TTS_CheckVN\checknetvn_ntm\WebUI\Bin\BusinessRules.dll
+C:\Users\Phong\Desktop\TTS_CheckVN\checknetvn_ntm\WebUI\Bin\BusinessRules.pdb
+C:\Users\Phong\Desktop\TTS_CheckVN\checknetvn_ntm\WebUI\Bin\BusinessRules.xml
+C:\Users\Phong\Desktop\TTS_CheckVN\checknetvn_ntm\BusinessRules\obj\Debug\BusinessRules.csprojAssemblyReference.cache
+C:\Users\Phong\Desktop\TTS_CheckVN\checknetvn_ntm\BusinessRules\obj\Debug\BusinessRules.csproj.CopyComplete
+C:\Users\Phong\Desktop\TTS_CheckVN\checknetvn_ntm\BusinessRules\obj\Debug\BusinessRules.dll
+C:\Users\Phong\Desktop\TTS_CheckVN\checknetvn_ntm\BusinessRules\obj\Debug\BusinessRules.pdb
+C:\Users\Phong\Desktop\TTS_CheckVN\NTM\WebUI\Bin\BusinessRules.dll
+C:\Users\Phong\Desktop\TTS_CheckVN\NTM\WebUI\Bin\BusinessRules.pdb
+C:\Users\Phong\Desktop\TTS_CheckVN\NTM\WebUI\Bin\BusinessRules.xml
+C:\Users\Phong\Desktop\TTS_CheckVN\NTM\BusinessRules\obj\Debug\BusinessRules.csprojAssemblyReference.cache
+C:\Users\Phong\Desktop\TTS_CheckVN\NTM\BusinessRules\obj\Debug\BusinessRules.csproj.CopyComplete
+C:\Users\Phong\Desktop\TTS_CheckVN\NTM\BusinessRules\obj\Debug\BusinessRules.dll
+C:\Users\Phong\Desktop\TTS_CheckVN\NTM\BusinessRules\obj\Debug\BusinessRules.pdb
+C:\Users\CHECKVN\Downloads\v4\WebUI\Bin\BusinessRules.dll
+C:\Users\CHECKVN\Downloads\v4\WebUI\Bin\BusinessRules.pdb
+C:\Users\CHECKVN\Downloads\v4\WebUI\Bin\BusinessRules.xml
+C:\Users\CHECKVN\Downloads\v4\BusinessRules\obj\Debug\BusinessRules.csproj.AssemblyReference.cache
+C:\Users\CHECKVN\Downloads\v4\BusinessRules\obj\Debug\BusinessRules.csproj.CoreCompileInputs.cache
+C:\Users\CHECKVN\Downloads\v4\BusinessRules\obj\Debug\BusinessRules.csproj.CopyComplete
+C:\Users\CHECKVN\Downloads\v4\BusinessRules\obj\Debug\BusinessRules.dll
+C:\Users\CHECKVN\Downloads\v4\BusinessRules\obj\Debug\BusinessRules.pdb
+D:\CheckVN2022\TTS_CheckVN\Base\BusinessRules\obj\Debug\BusinessRules.csproj.AssemblyReference.cache
+D:\CheckVN2022\TTS_CheckVN\Base\BusinessRules\obj\Debug\BusinessRules.csproj.CoreCompileInputs.cache
+D:\CheckVN2022\TTS_CheckVN\Base\BusinessRules\obj\Debug\BusinessRules.dll
+D:\CheckVN2022\TTS_CheckVN\Base\BusinessRules\obj\Debug\BusinessRules.pdb
+D:\CheckVN2022\TTS_CheckVN\Base\WebUI\Bin\BusinessRules.dll
+D:\CheckVN2022\TTS_CheckVN\Base\WebUI\Bin\BusinessRules.pdb
+D:\CheckVN2022\TTS_CheckVN\Base\WebUI\Bin\BusinessRules.xml
+D:\CheckVN2022\TTS_CheckVN\Base\BusinessRules\obj\Debug\BusinessRules.csproj.CopyComplete
